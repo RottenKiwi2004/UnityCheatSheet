@@ -1,0 +1,1 @@
+Use obsidian or other markdown reader to open this cheat sheet. Notepad also works, but it might look awful.
