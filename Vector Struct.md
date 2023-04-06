@@ -8,3 +8,6 @@ Vector struct
 - Properties
 	- normalized
 	- magnitude
+- Shorthands
+	- up, down, left, right, forward, backward
+	- zero (0, 0, 0), one (1, 1, 1)
