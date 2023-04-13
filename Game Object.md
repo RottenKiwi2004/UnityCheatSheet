@@ -15,3 +15,10 @@ This is what I missed when I first learnt Unity and it's the most important conc
 	- Transforming the parent also directly affects their children relative properties
 - Local space or Object space
 	- Position is based on where the object is and Rotation is based on which direction the object is looking
+
+### Destroy
+
+Remove another game object from the scene
+```cs
+Destroy(anotherGameobject);
+```

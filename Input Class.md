@@ -9,3 +9,12 @@ Input.GetKeyDown(keyCode) --> bool
 Input.GetAxis(axis) --> -1, 0, or 1
 // axis: string ; "Horizontal" or "Vertical"
 ```
+
+same also applies to 
+
+```cs
+Input.GetAxisRaw(axis) --> -1, 0, or 1
+// axis: string ; "Horizontal" or "Vertical"
+```
+
+The only difference between GetAxis and GetAxisRaw is that GetAxis is smoothed out between -1, 0, and 1 based on the sensitivity, but GetAxisRaw will only return exactly -1, 0 or 1
